@@ -123,8 +123,8 @@ def num_points_scored(chosen_name) # test is doing it - i think i'm iterating th
           attribute_values.each do |player_stats|
             if player_stats[:player_name] == chosen_name
               return player_stats[:points]
-            end
           end
+        end
       end
     end
   end
