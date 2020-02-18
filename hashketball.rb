@@ -258,8 +258,6 @@ def winning_team
 end
 
 
-
-
 def player_with_longest_name
   name_length = 0
   longest_name = nil
